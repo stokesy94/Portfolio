@@ -1,0 +1,73 @@
+.down{
+    text-align: center;
+}
+ul, li {
+    list-style: none;
+}
+.downicon{
+    position: absolute;
+    bottom: 0;
+    opacity: 0.5;
+}
+.about{
+    display: flex;
+    flex-direction: row;
+    height: 95vh;
+    width: 99vw;
+    background-color: #25F586;
+    z-index: 8;
+}
+
+.b1{
+    position: absolute;
+    left: 25.8%;
+    text-align: center;
+}
+.b2{
+    position: absolute;
+    left: 47%;
+    bottom: -25%;
+
+}
+.b2a, .b2b, .b2c, .b2d{
+    position: absolute;
+    text-align: center;
+    width: 300px;
+    height: 600px;
+}
+.b2a{
+    left: -650%;
+}
+.b2b{
+    left: -250%;
+}
+.b2c{
+    left: 150px;
+}
+.b2d{
+    left: 550px;
+}
+.pic{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 18px -6px black;
+}
+.pic:hover{
+    box-shadow: 0px 0px 40px -6px black;
+}
+.b1downicon{
+    position: absolute;
+    bottom: -90%;
+    left: 47%;
+    opacity: 0.5;
+
+}
+.buttons{
+    border-radius: 10%;
+    padding: 2%;
+    margin: 0 2% 0 2%;
+    background-color: beige;
+    font-family: "Dosis";
+    border: black solid 1px;
+}
