@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/portfoliopage/static/css/main.0200eca5.chunk.css",
+    "main.js": "/portfoliopage/static/js/main.9824fc56.chunk.js",
+    "main.js.map": "/portfoliopage/static/js/main.9824fc56.chunk.js.map",
+    "runtime-main.js": "/portfoliopage/static/js/runtime-main.03fb7ba8.js",
+    "runtime-main.js.map": "/portfoliopage/static/js/runtime-main.03fb7ba8.js.map",
+    "static/js/2.7fb10810.chunk.js": "/portfoliopage/static/js/2.7fb10810.chunk.js",
+    "static/js/2.7fb10810.chunk.js.map": "/portfoliopage/static/js/2.7fb10810.chunk.js.map",
+    "index.html": "/portfoliopage/index.html",
+    "precache-manifest.13ca4b62352ef78564448b4f02e5c5c9.js": "/portfoliopage/precache-manifest.13ca4b62352ef78564448b4f02e5c5c9.js",
+    "service-worker.js": "/portfoliopage/service-worker.js",
+    "static/css/main.0200eca5.chunk.css.map": "/portfoliopage/static/css/main.0200eca5.chunk.css.map",
+    "static/js/2.7fb10810.chunk.js.LICENSE.txt": "/portfoliopage/static/js/2.7fb10810.chunk.js.LICENSE.txt",
+    "static/media/CV.pdf": "/portfoliopage/static/media/CV.928c1357.pdf",
+    "static/media/Quiz.jpg": "/portfoliopage/static/media/Quiz.3a2815f5.jpg",
+    "static/media/calc.jpg": "/portfoliopage/static/media/calc.6f0df71a.jpg",
+    "static/media/google.jpg": "/portfoliopage/static/media/google.422b5714.jpg",
+    "static/media/mac.jpg": "/portfoliopage/static/media/mac.e21c6024.jpg",
+    "static/media/me.jpg": "/portfoliopage/static/media/me.7691065e.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.03fb7ba8.js",
+    "static/js/2.7fb10810.chunk.js",
+    "static/css/main.0200eca5.chunk.css",
+    "static/js/main.9824fc56.chunk.js"
+  ]
+}
