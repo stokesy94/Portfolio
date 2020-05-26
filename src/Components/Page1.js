@@ -15,6 +15,7 @@ export default class Page1 extends Component {
                 <meta charSet="UTF-8" />
                 <meta name="description" content="Where you can find out all about me" />
                 <meta name="author" content="Matthew Stokes" />
+                <meta name="viewport" content="width=device-width, initial-scale=1.0" />
                 <link rel="stylesheet" href="LP.css" />
                 <link href="https://fonts.googleapis.com/css2?family=Dosis&display=swap" rel="stylesheet" />
                 <title>MattStokesWD</title>
@@ -33,8 +34,12 @@ export default class Page1 extends Component {
                     </div>
 
                     <div>
-                        <a href={CV} target="_blank"><button className="cv">CV</button></a>
-                        <a href="https://www.linkedin.com/in/matthew-stokes-077414b7/" target="_blank"><FontAwesomeIcon icon={faLinkedin} className="linked" size="5x" /></a>
+                        <a href={CV} target="_blank"><button className="cv">CV
+
+                        </button></a>
+                        <a href="https://www.linkedin.com/in/matthew-stokes-077414b7/" target="_blank"><FontAwesomeIcon icon={faLinkedin} className="linked" size="5x">
+
+                        </FontAwesomeIcon></a>
                     </div>
 
                     <div className="down">

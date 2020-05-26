@@ -83,7 +83,7 @@ textarea.contact-form-text{
 }
 .emailed{
     font-size: 2em;
-    padding: ;
+
 }
 .linkedin{
     padding: 5%;
@@ -91,3 +91,18 @@ textarea.contact-form-text{
 .github{
     padding: 5%;
 }
+.contactmoi{
+    position: absolute;
+    bottom: -100%;
+    background-color: yellow;
+    border-radius: 25px;
+    border: solid 2px black;
+    padding: 2px 100px 2px 100px;
+    transform-origin: left;
+}
+.contactmoi:hover{
+    transform: translatex(10px);
+
+
+}
+.contactmoi:

@@ -15,7 +15,6 @@ export default class Page2 extends Component {
 
                     <div>
                         <a id="about" href="#projects #class #main1 #animateArrow "></a>
-                        <a id="about" href="#projects #class #main1 #animateArrow "></a>
                     </div>
 
                     <div className="b1">

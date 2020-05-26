@@ -12,11 +12,13 @@ export default class Page3 extends Component {
 
                 <a id="contact" href="#projects #about #main1"></a>
 
-
+                <div class="contactmoi">
+                    <h1>Contact Me</h1>
+                </div>
 
 
                 <div className="contact-section">
-                    <h1>Contact Me</h1>
+
                     <div className="border"></div>
                     <form className="contact-form" action="index.html" method="post"></form>
                         <input type="text" className="contact-form-text" placeholder="Your name" />
