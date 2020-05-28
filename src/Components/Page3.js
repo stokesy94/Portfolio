@@ -20,12 +20,13 @@ export default class Page3 extends Component {
                 <div className="contact-section">
 
                     <div className="border"></div>
-                    <form className="contact-form" action="index.html" method="post"></form>
+                    <form className="contact-form" action="index.html" method="post">
                         <input type="text" className="contact-form-text" placeholder="Your name" />
                         <input type="email" className="contact-form-text" placeholder="Your email" />
                         <input type="text" className="contact-form-text" placeholder="Your number" />
                         <textarea className="contact-form-text" placeholder="your message"></textarea>
                         <input type="submit" className="contact-form-btn" value="Send" />
+                    </form>
                 </div>
 
                 <div className="contacticons">

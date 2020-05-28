@@ -2,10 +2,11 @@
     display: flex;
     justify-content: space-around;
     height: 100vh;
-    background-color: #FFF5EE;
+    background-color: white;
+    width: 100%;
 }
-.d1{
-    margin-top: 100px;
+.contacticons a{
+    color: black;
 }
 *{
     margin: 0;
@@ -76,25 +77,25 @@ textarea.contact-form-text{
     border-top: solid black 2px;
     padding-top: 2%;
 }
-.contacticons{
+.contacticons {
     position: absolute;
-    left: 25%;
-    bottom: -145%;
+    display: flex;
 }
 .emailed{
     font-size: 2em;
 
 }
 .linkedin{
-    padding: 5%;
+
 }
 .github{
-    padding: 5%;
+
 }
 .contactmoi{
     position: absolute;
     bottom: -100%;
-    background-color: yellow;
+    background-color: black;
+    color:white;
     border-radius: 25px;
     border: solid 2px black;
     padding: 2px 100px 2px 100px;
@@ -105,4 +106,130 @@ textarea.contact-form-text{
 
 
 }
-.contactmoi:
+/*  <---- Media Queries ----> */
+
+/*  <---- Mobile Landscape ----> */
+
+@media screen and (min-width: 360px) {
+  .contacticons{
+      left: 10%;
+      bottom: -180%;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+  }
+    .emailed{
+        font-size: 1.5em;
+    }
+    .linkedin{
+        height: 50%;
+
+    }
+    .github{
+        height: 50%;
+    }
+    .contact-section{
+        bottom: -161%;
+        left: 18%;
+    }
+}
+
+/*  <---- Tablet portrait ----> */
+
+@media screen and (min-width: 768px) {
+    .contacticons{
+        left: 20%;
+        bottom: -166%;
+
+    }
+    .emailed{
+        font-size: 1.5em;
+    }
+    .linkedin{
+        padding: 5%;
+
+    }
+    .github{
+        padding: 5%;
+    }
+    .contact-section{
+        bottom: -141%;
+        left:36%;
+    }
+}
+
+/*  <---- Tablet landscape ----> */
+
+@media screen and (min-width: 992px) {
+    .contacticons{
+        left: 30%;
+        bottom: -171%;
+
+    }
+    .emailed{
+        font-size: 1.5em;
+    }
+    .linkedin{
+        padding: 5%;
+
+    }
+    .github{
+        padding: 5%;
+    }
+    .contact-section{
+        bottom: -151%;
+        left:40%;
+    }
+}
+
+/*  <---- Laptops + ----> */
+
+@media screen and (min-width: 1200px) {
+    .contacticons{
+        left: 35%;
+        bottom: -171%;
+
+    }
+    .emailed{
+        font-size: 1.5em;
+    }
+    .linkedin{
+        padding: 5%;
+
+    }
+    .github{
+        padding: 5%;
+    }
+    .contact-section{
+        bottom: -151%;
+        left:42%;
+    }
+}
+@media screen and (min-width: 2160px) {
+    .contacticons{
+        position: absolute;
+        left: 25%;
+        bottom: -145%;
+    }
+    .emailed{
+        font-size: 2em;
+
+    }
+    .linkedin{
+        position: absolute;
+        left: -6%;
+        height: 300%;
+        bottom: 500%;
+    }
+    .github{
+        position: absolute;
+        left: -6%;
+        bottom: -700%;
+        height: 300%;
+    }
+    .contact-section {
+        position: absolute;
+        bottom: -150%;
+        left: 55%;
+    }
+}

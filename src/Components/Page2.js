@@ -18,16 +18,14 @@ export default class Page2 extends Component {
                     </div>
 
                     <div className="b1">
-                        <h1>About Me</h1>
-                        <p className="b1a">I am proficient at HTML, CSS and JavaScript and have a good understanding of various
-                            different frameworks and tools used in the modern workplace.</p>
-                        <p className="b1a">Actively searching for front end opportunities.</p>
-                        <p className="b1a">Outside of work and development I spend the weekends with my other half, usually finding a
+                        <h1 className="b1a">About Me</h1><br/>
+                        <p className="b1b">I am proficient at HTML, CSS and JavaScript and have a good understanding of various
+                            different frameworks and tools used in the modern workplace. I am actively searching for front end opportunities and outside of work and development I spend the weekends with my other half, usually finding a
                             new restaurant or researching a new destination to travel too!</p>
                     </div>
 
                     <div className="b2">
-                        <h1>Portfolio</h1>
+                        <h1 className="b2h1">Portfolio</h1>
                         <div className="b2a">
                             <img src={Quiz} className="pic"/>
                             <h3>Quiz App</h3>

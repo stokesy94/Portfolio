@@ -10,47 +10,60 @@ ul, li {
     opacity: 0.5;
 }
 .about{
-    display: flex;
-    flex-direction: row;
+
     height: 95vh;
-    width: 99vw;
-    background-color: #25F586;
-    z-index: 8;
+    width: 100%;
+    background-color: white;
+
 }
 
 .b1{
     position: absolute;
-    left: 25.8%;
+    padding: 2% 2% 2%;
+}
+.b1a{
+    text-align: center;
+    background-color: black;
+    color:white;
+    border-radius: 25px;
+    border: solid 2px black;
+    padding: 2px 100px 2px 100px;
+    transform-origin: left;
+}
+.b1b{
     text-align: center;
 }
 .b2{
     position: absolute;
-    left: 47%;
-    bottom: -25%;
-
+    bottom: -110%;
+    height: 80%;
+    display: flex;
 }
-.b2a, .b2b, .b2c, .b2d{
+.b2h1{
     position: absolute;
-    text-align: center;
-    width: 300px;
-    height: 600px;
+    bottom: 105%;
+    left: 44%;
+    background-color: black;
+    color:white;
+    border-radius: 25px;
+    border: solid 2px black;
+    padding: 2px 100px 2px 100px;
+    transform-origin: left;
+}
 
-}
-.b2a{
-    left: -650%;
-}
-.b2b{
-    left: -250%;
-}
-.b2c{
-    left: 150px;
-}
-.b2d{
-    left: 550px;
+.b2a, .b2b, .b2c, .b2d{
+
+    padding-left: 2%;
+    text-align: center;
+    width: 25%;
+    font-size: 1.5em;
+    overflow-y: auto;
+    height: 70%;
+
 }
 .pic{
-    height: 200px;
-    width: 200px;
+    height: 25%;
+    width: 35%;
     border-radius: 50%;
     box-shadow: 0px 0px 18px -6px black;
 }
@@ -72,4 +85,113 @@ ul, li {
     font-family: "Dosis";
     border: black solid 1px;
     cursor: pointer;
+}
+/*  <---- Media Queries ----> */
+
+/*  <---- Mobile Landscape ----> */
+
+@media screen and (min-width: 360px) {
+    .b1a{
+        font-size: 1.4em;
+    }
+    .b1b{
+        font-size: 1.2em;
+    }
+    .b2{
+        bottom: -123%;
+    }
+    .b2h1{
+
+    }
+    .b2a, .b2b, .b2c, .b2d{
+        font-size: 1.0em;
+        height: 59%;
+        width:25%;
+    }
+    }
+
+/*  <---- Tablet portrait ----> */
+
+@media screen and (min-width: 768px) {
+    .b1a{
+        font-size: 1.4em;
+    }
+    .b1b{
+        font-size: 1.2em;
+    }
+    .b2{
+        bottom: -110%;
+    }
+    .b2h1{
+
+    }
+    .b2a, .b2b, .b2c, .b2d{
+        font-size: 1.2em;
+        height: 70%;
+        width:22.5%;
+    }
+}
+
+/*  <---- Tablet landscape ----> */
+
+@media screen and (min-width: 992px) {
+    .b1a{
+        font-size: 1.6em;
+    }
+    .b1b{
+        font-size: 1.2em;
+    }
+    .b2{
+        bottom: -108%;
+    }
+    .b2h1{
+
+    }
+    .b2a, .b2b, .b2c, .b2d{
+        font-size: 1.2em;
+        height: 76%;
+        width:25%;
+    }
+}
+
+/*  <---- Laptops + ----> */
+
+@media screen and (min-width: 1200px) {
+    .b1a{
+        font-size: 1.5em;
+    }
+    .b1b{
+        font-size: 1.3em;
+    }
+    .b2{
+        bottom: -106%;
+    }
+    .b2h1{
+
+    }
+    .b2a, .b2b, .b2c, .b2d{
+        font-size: 1.6em;
+        height: 80%;
+        width:25%;
+
+    }
+}
+@media screen and (min-width: 2160px) {
+    .b1a{
+        font-size: 2em;
+    }
+    .b1b{
+        font-size: 1.8em;
+    }
+    .b2{
+        bottom: -100%;
+    }
+    .b2h1{
+
+    }
+    .b2a, .b2b, .b2c, .b2d{
+        font-size: 2em;
+        height: 85%;
+        width:25%;
+    }
 }
