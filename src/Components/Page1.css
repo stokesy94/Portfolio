@@ -158,6 +158,21 @@ span{
     .banner{
         flex-wrap: nowrap;
     }
+    .self{
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%);
+        top: 23%;
+    }
+    .hi{
+        font-size: 1em;
+        top: 45%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%);
+        text-align: center;
+
+    }
 }
 
 /*  <---- Tablet landscape ----> */
@@ -166,17 +181,49 @@ span{
     .hi{
         font-size: 1.5em;
     }
+    .self{
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%);
+        top: 23%;
+    }
+    .hi{
+        font-size: 1em;
+        top: 45%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%);
+        text-align: center;
+
+    }
 }
 
 /*  <---- Laptops + ----> */
 
 @media screen and (min-width: 1200px) {
-    .hi{
-        font-size: 2em;
-        top: 27%;
-        left: 45%;
-    }
+
     .self{
-        left:35%;
+        border-radius: 50%;
+        position: absolute;
+        opacity: 0.5;
+        top: 20%;
+        height: 20%;
+        left: 35%;
+    }
+    .hi{
+        position: absolute;
+        top: 27%;
+        font-size: 2px;
+        color: white;
+        left: 60%;
+        padding-left: 10%;
+        font-size: 2em;
+
+    }
+    .main2{
+        bottom: 10%;
+        left: 53%;
+        margin-right: -50%;
+        transform: translate(-50%);
     }
 }
