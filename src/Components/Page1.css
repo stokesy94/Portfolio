@@ -10,13 +10,14 @@ body{
     margin: 0;
     font-size: 100%;
 }
+
 a{
     text-decoration: none;
     color: white;
     font-weight: bold;
 }
 a:hover{
-    color: blue;
+    color: white;
 }
 .Page1{
     height: 95vh;
@@ -47,8 +48,6 @@ a:hover{
     position: fixed;
     height: 7%;
     width: 100%;
-    margin: 0;
-    z-index: 100;
     text-align: center;
     justify-content: space-around;
 
@@ -123,11 +122,29 @@ span{
     .hi{
         font-size: 1em;
         top: 45%;
-        left: 30%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%);
+        text-align: center;
+
+    }
+    .main2{
+        bottom: 10%;
+        left: 57%;
+        margin-right: -50%;
+        transform: translate(-50%);
+    }
+    .banner{
+
+        flex-wrap: wrap;
     }
     .self{
-        left:40%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%);
+        top: 23%;
     }
+
 }
 
 /*  <---- Tablet portrait ----> */
@@ -137,6 +154,9 @@ span{
         font-size: 1.2em;
         top: 45%;
         left: 30%;
+    }
+    .banner{
+        flex-wrap: nowrap;
     }
 }
 

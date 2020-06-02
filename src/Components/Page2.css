@@ -42,7 +42,9 @@ ul, li {
 .b2h1{
     position: absolute;
     bottom: 105%;
-    left: 44%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%);
     background-color: black;
     color:white;
     border-radius: 25px;
@@ -101,6 +103,8 @@ ul, li {
         bottom: -123%;
     }
     .b2h1{
+        bottom: 102%;
+        font-size: 1.6em;
 
     }
     .b2a, .b2b, .b2c, .b2d{
@@ -123,7 +127,7 @@ ul, li {
         bottom: -110%;
     }
     .b2h1{
-
+        bottom: 110%;
     }
     .b2a, .b2b, .b2c, .b2d{
         font-size: 1.2em;
@@ -145,7 +149,7 @@ ul, li {
         bottom: -108%;
     }
     .b2h1{
-
+        bottom: 105%;
     }
     .b2a, .b2b, .b2c, .b2d{
         font-size: 1.2em;
