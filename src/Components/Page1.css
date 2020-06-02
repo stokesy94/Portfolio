@@ -50,6 +50,7 @@ a:hover{
     width: 100%;
     text-align: center;
     justify-content: space-around;
+    z-index: 1;
 
 }
 .a2,.a3{
@@ -211,7 +212,7 @@ span{
         left: 35%;
     }
     .hi{
-        position: absolute;
+
         top: 27%;
         font-size: 2px;
         color: white;
