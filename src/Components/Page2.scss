@@ -1,0 +1,142 @@
+.down{
+    text-align: center;
+}
+ul, li {
+    list-style: none;
+}
+.downicon{
+    position: absolute;
+    bottom: 0;
+    opacity: 0.5;
+}
+.about{
+    height: 95vh;
+    width: 100%;
+    background-color: white;
+}
+.pics{
+    border-radius: 50%;
+}
+
+.b1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 50%;
+    width: 96%;
+
+}
+.b1element{
+    padding-right: 5%;
+    padding-left: 5%;
+
+}
+.b1a{
+    transform: translateY(200%);
+    text-align: center;
+    font-family: "text";
+    color:black;
+    text-decoration: underline;
+
+}
+.b1a.is-visible{
+    opacity: 1;
+    transform: rotateZ(-10deg);
+}
+
+
+.b1b{
+    text-align: left;
+    transform: translateX(-9%);
+    width: 100%;
+    align-self: center;
+    font-family: header;
+
+}
+
+.b2{
+    height: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.b2h1{
+    text-align: center;
+    font-family: "text";
+    color: black;
+    text-decoration: underline;
+    transform: translateY(-300%);
+
+}
+
+.b2a {
+    text-align: center;
+    overflow-y: auto;
+    height: 70%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    transform: translateY(-30%);
+
+}
+
+.b2a p, ul {
+    font-size: .7em;
+}
+.b2a h3 {
+    font-family: header;
+}
+
+.pic{
+    height: 45%;
+    width: 45%;
+    box-shadow: 0px 0px 18px -6px black;
+}
+.pic:hover{
+    box-shadow: 0px 0px 40px -6px black;
+}
+.b1downicon{
+    position: absolute;
+    bottom: -90%;
+    left: 49%;
+    opacity: 0.5;
+
+}
+.buttons{
+    border-radius: 10%;
+    padding: 10%;
+    background-color: beige;
+    font-family: "Dosis";
+    border: black solid 1px;
+    cursor: pointer;
+}
+/*  <---- Media Queries ----> */
+
+/*  <---- Mobile Landscape ----> */
+
+@media screen and (min-width: 360px) {
+
+    }
+
+/*  <---- Tablet portrait ----> */
+
+@media screen and (min-width: 768px) {
+
+}
+
+/*  <---- Tablet landscape ----> */
+
+@media screen and (min-width: 992px) {
+
+}
+
+/*  <---- Laptops + ----> */
+
+@media screen and (min-width: 1200px) {
+
+}
+@media screen and (min-width: 2160px) {
+
+}

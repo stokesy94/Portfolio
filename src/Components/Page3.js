@@ -1,18 +1,83 @@
-import React, { Component } from "react";
-import "./Page3.css";
+import React, {Component, useRef} from "react";
+import "./Page3.scss";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLinkedin, faGithub,  } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/fontawesome-free-solid";
+import gsap from "gsap";
+import {useIntersection} from "react-use";
 
-export default class Page3 extends Component {
-    render () {
+
+
+ const Page3 = () => {
+
+     const sectionRef = useRef(null);
+
+     const intersection = useIntersection(sectionRef, {
+         root: document.querySelector("contactmoi"),
+         rootMargin: "0px",
+         threshold: .8,
+     });
+
+     const leftIn = (element) => {
+         gsap.to(element, 1, {
+             opacity: 1,
+             x: 0,
+             ease: "power4.out",
+             stagger: {
+                 amount: .3
+             }
+         })
+     };
+
+     const leftOut = (element) => {
+         gsap.to(element, 1, {
+             opacity: 0,
+             x: -100,
+             ease: "power4.out",
+         })
+     };
+
+     const rightIn = (element) => {
+         gsap.to(element, 1, {
+             opacity: 1,
+             x: 0,
+             ease: "power4.out",
+             stagger: {
+                 amount: .3
+             }
+         })
+     };
+
+     const rightOut = (element) => {
+         gsap.to(element, 1, {
+             opacity: 0,
+             x: 100,
+             ease: "power4.out",
+         })
+     };
+
+     intersection && intersection.intersectionRatio < .8 ?
+         leftOut(".contactmoi")
+         :
+         leftIn(".contactmoi")
+
+     intersection && intersection.intersectionRatio < .8 ?
+         leftOut(".contact-form")
+         :
+         leftIn(".contact-form")
+
+     intersection && intersection.intersectionRatio < .8 ?
+         rightOut(".contacticons")
+         :
+         rightIn(".contacticons")
+
         return (
 
-            <div className="contact">
+            <div ref={sectionRef} className="contact">
 
                 <a id="contact" href="#projects #about #main1"></a>
 
-                <div class="contactmoi">
+                <div className="contactmoi">
                     <h1>Contact Me</h1>
                 </div>
 
@@ -43,4 +108,5 @@ export default class Page3 extends Component {
 
         )
     }
-}
+
+export default Page3;

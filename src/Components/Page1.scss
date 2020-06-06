@@ -1,0 +1,256 @@
+@font-face {
+    font-family: "text";
+    src: url("../Fonts/LemonMilkRegular-X3XE2.otf");
+}
+@font-face {
+    font-family: "header";
+    src: url("../Fonts/soft.otf");
+}
+html{
+    scroll-behavior: smooth;
+    font-size: 100%;
+}
+body{
+
+    color: black;
+    font-family: "text";
+    margin: 0;
+    font-size: 100%;
+}
+.animation-area{
+    position: absolute;
+    background: linear-gradient(to right, #525252, #3d72b4);
+    width: 100%;
+    height: 95vh;
+    opacity: 1;
+    z-index: 1;
+}
+.animation-area::before{
+    position: absolute;
+    content: "";
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(to left, #FFA17F, #00223E);
+    z-index: -1;
+    transition: opacity 1.5s linear;
+    opacity: 0;
+}
+.animation-area:hover::before{
+    opacity: 1;
+}
+.box-area{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.box-area li {
+    position: absolute;
+    display: block;
+    list-style: none;
+    width: 25px;
+    height: 25px;
+    background: lightgrey;
+    animation: animate 20s linear infinite;
+    bottom: -150px;
+}
+.box-area li:nth-child(1){
+    left: 86%;
+    width: 10%;
+    height: 10%;
+    animation-delay: 1s;
+}
+.box-area li:nth-child(2){
+    left: 12%;
+    top: 5%;
+    width: 5%;
+    height: 6%;
+    animation-delay: 1.5s;
+    animation-duration: 10s;
+}
+.box-area li:nth-child(3){
+    left: 70%;
+    width: 4%;
+    height: 2%;
+    animation-delay: 5.5s;
+}
+.box-area li:nth-child(4){
+    left: 70%;
+    width: 2%;
+    height: 3%;
+    animation-delay: 0s;
+    animation-duration: 15s;
+}
+.box-area li:nth-child(5){
+    left: 65%;
+    width: 1%;
+    height: 2%;
+    animation-delay: 2s;
+}
+.box-area li:nth-child(6){
+    left: 15%;
+    width: 2%;
+    height: .5%;
+    transform: rotate(90deg);
+    animation-delay: 7s;
+}
+.box-area li:nth-child(7){
+    left: 15%;
+    top: 15%;
+    width: 10%;
+    height: 4%;
+    transform: rotate(90deg);
+    animation-delay: 4s;
+}
+.box-area li:nth-child(8){
+    left: 20%;
+    top: 23%;
+    width: 4%;
+    height: 7%;
+    transform: rotate(90deg);
+    animation-delay: 0s;
+}
+@keyframes animate {
+    0%{
+        transform: translateY(0) translateX(0) rotate(0);
+        opacity: 1;
+    }
+    100%{
+        transform: translateY(-800px) translateX(800px) rotate(360deg);
+        opactiy: 1;
+    }
+}
+.Page1{
+    height: 95vh;
+    min-width: 100%;
+    position: relative;
+    margin: 0;
+}
+.banner{
+    display: flex;
+    position: fixed;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    height: 2%;
+    width: 100%;
+    text-align: center;
+    z-index: 10;
+    margin: 0;
+    padding: 0;
+}
+.banner a{
+    text-decoration: none;
+    color: lavender;
+    list-style: none;
+    font-size: 2em;
+    padding-top: 1%;
+    padding-bottom: 0;
+    text-align: center;
+    transform: translateX(15%);
+}
+.banner a:hover{
+    color: white;
+}
+.main1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 93%;
+    width: 100%;
+}
+.hi{
+    z-index: 2;
+    color: lavender;
+    font-family: header;
+    font-weight: bold;
+}
+span{
+    text-decoration: underline;
+    color: papayawhip;
+}
+.down{
+    display: flex;
+    justify-content: center;
+}
+.downicon{
+    z-index: 2;
+    transform: translate(-50%);
+    background-color: white;
+}
+
+/*  <---- Media Queries ----> */
+
+/*  <---- Mobile Landscape ----> */
+
+@media screen and (min-width: 360px) {
+    .hi{
+        font-size: 1em;
+        text-align: center;
+    }
+    .banner{
+        font-size: 1em;
+        flex-direction: column;
+    }
+    .banner a{
+        font-size: 1.5em;
+    }
+}
+
+@media screen and (min-width: 736px) {
+    .banner{
+        flex-direction: row;
+    }
+}
+
+/*  <---- Tablet portrait ----> */
+
+@media screen and (min-width: 768px) {
+    .banner{
+        font-size: 1em;
+        flex-direction: row;
+        height: 20%;
+        flex: 1;
+    }
+    .hi{
+        font-size: 2em;
+        text-align: center;
+    }
+    .banner a{
+        font-size: 1.5em;
+
+    }
+}
+
+/*  <---- Tablet landscape ----> */
+
+@media screen and (min-width: 992px) {
+    .hi{
+        font-size: 2em;
+        text-align: center;
+    }
+    .banner a{
+        font-size: 2em;
+    }
+}
+
+/*  <---- Laptops + ----> */
+
+@media screen and (min-width: 1200px) {
+
+    .hi{
+        font-size: 2em;
+    }
+    .banner a{
+        font-size: 2em;
+    }
+    .banner{
+        height: 2%;
+    }
+}

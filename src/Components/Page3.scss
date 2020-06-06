@@ -1,9 +1,25 @@
 .contact{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
     height: 100vh;
-    background-color: white;
+    background-color: lightskyblue;
     width: 100%;
+}
+.contactmoi{
+
+    background-color: black;
+    color:white;
+    border-radius: 25px;
+    border: solid 2px black;
+    padding: 1%;
+    transition: background-color .2s ease-out;
+
+}
+.contactmoi:hover{
+    transition: background-color .2s ease-out ;
+    background-color: red;
 }
 .contacticons a{
     color: black;
@@ -11,25 +27,15 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: "Dosis";
+    font-family: "text";
 
 }
-.contact-section{
-    position: absolute;
-    bottom: -150%;
-    left: 55%;
-}
+
 .contact-section h1 {
     text-align: center;
     color: black;
 }
 
-.border{
-    width: 100px;
-    height: 10px auto;
-    background: #34495e;
-    margin: 40px auto;
-}
 .contact-form {
 
     margin: auto;
@@ -66,46 +72,21 @@ textarea.contact-form-text{
     cursor: pointer;
     transition: 1sec;
 }
-.contact-form-btn-:hover{
-    background: #2980b9;
-}
-.footer{
-    position: absolute;
-    bottom: -187%;
-    width: 100%;
-    text-align: center;
-    border-top: solid black 2px;
-    padding-top: 2%;
-}
 .contacticons {
-    position: absolute;
     display: flex;
 }
 .emailed{
     font-size: 2em;
-
 }
-.linkedin{
-
+.footer{
+    width: 100%;
+    text-align: center;
+    border-top: solid black 2px;
+    padding-top: 1%;
+    padding-bottom: 1%;
 }
-.github{
-
-}
-.contactmoi{
-    position: absolute;
-    bottom: -100%;
-    background-color: black;
-    color:white;
-    border-radius: 25px;
-    border: solid 2px black;
-    padding: 2px 100px 2px 100px;
-    transform-origin: left;
-}
-.contactmoi:hover{
-    transform: translatex(10px);
 
 
-}
 /*  <---- Media Queries ----> */
 
 /*  <---- Mobile Landscape ----> */
