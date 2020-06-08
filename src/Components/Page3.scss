@@ -92,19 +92,23 @@ textarea.contact-form-text{
 /*  <---- Mobile Landscape ----> */
 
 @media screen and (min-width: 360px) {
-  .contacticons{
-      left: 10%;
-      bottom: -180%;
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-around;
-  }
+    .contact{
+        transform: translateY(22%);
+        height: 120vh;
+    }
+    .contacticons{
+
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+        align-items: center;
+    }
     .emailed{
-        font-size: 1.5em;
+        font-size: 1.2em;
+        padding-bottom: 10%;
     }
     .linkedin{
         height: 50%;
-
     }
     .github{
         height: 50%;
@@ -115,27 +119,63 @@ textarea.contact-form-text{
     }
 }
 
+@media screen and (min-width: 666px) {
+    .contact{
+        transform: translateY(22%);
+        height: 120vh;
+
+    }
+    .contacticons{
+
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+        align-items: center;
+    }
+    .emailed{
+        font-size: 1.2em;
+        padding-bottom: 10%;
+    }
+    .linkedin{
+        height: 50%;
+    }
+    .github{
+        height: 50%;
+    }
+    .contact-section{
+        bottom: -161%;
+        left: 18%;
+
+    }
+    .footer{
+        background-color: lightskyblue;
+    }
+}
 /*  <---- Tablet portrait ----> */
 
 @media screen and (min-width: 768px) {
+    .contact{
+        height: 100vh;
+    }
     .contacticons{
-        left: 20%;
-        bottom: -166%;
-
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+        align-items: center;
     }
     .emailed{
-        font-size: 1.5em;
+        font-size: 1.2em;
+        padding-bottom: 10%;
     }
     .linkedin{
-        padding: 5%;
-
+        height: 50%;
     }
     .github{
-        padding: 5%;
+        height: 50%;
     }
     .contact-section{
-        bottom: -141%;
-        left:36%;
+        bottom: -161%;
+        left: 18%;
     }
 }
 
