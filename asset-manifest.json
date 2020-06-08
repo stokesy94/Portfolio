@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/portfoliopage/static/css/main.06f2aca9.chunk.css",
-    "main.js": "/portfoliopage/static/js/main.6ad60dad.chunk.js",
-    "main.js.map": "/portfoliopage/static/js/main.6ad60dad.chunk.js.map",
+    "main.css": "/portfoliopage/static/css/main.d38822c8.chunk.css",
+    "main.js": "/portfoliopage/static/js/main.d07a2032.chunk.js",
+    "main.js.map": "/portfoliopage/static/js/main.d07a2032.chunk.js.map",
     "runtime-main.js": "/portfoliopage/static/js/runtime-main.03fb7ba8.js",
     "runtime-main.js.map": "/portfoliopage/static/js/runtime-main.03fb7ba8.js.map",
-    "static/js/2.d02f4982.chunk.js": "/portfoliopage/static/js/2.d02f4982.chunk.js",
-    "static/js/2.d02f4982.chunk.js.map": "/portfoliopage/static/js/2.d02f4982.chunk.js.map",
+    "static/js/2.1a5ea948.chunk.js": "/portfoliopage/static/js/2.1a5ea948.chunk.js",
+    "static/js/2.1a5ea948.chunk.js.map": "/portfoliopage/static/js/2.1a5ea948.chunk.js.map",
     "index.html": "/portfoliopage/index.html",
-    "precache-manifest.46991e8ef7a26b80eb42a34e6a7bb3bd.js": "/portfoliopage/precache-manifest.46991e8ef7a26b80eb42a34e6a7bb3bd.js",
+    "precache-manifest.75fd192de962170f6d1f1bd29818c117.js": "/portfoliopage/precache-manifest.75fd192de962170f6d1f1bd29818c117.js",
     "service-worker.js": "/portfoliopage/service-worker.js",
-    "static/css/main.06f2aca9.chunk.css.map": "/portfoliopage/static/css/main.06f2aca9.chunk.css.map",
-    "static/js/2.d02f4982.chunk.js.LICENSE.txt": "/portfoliopage/static/js/2.d02f4982.chunk.js.LICENSE.txt",
+    "static/css/main.d38822c8.chunk.css.map": "/portfoliopage/static/css/main.d38822c8.chunk.css.map",
+    "static/js/2.1a5ea948.chunk.js.LICENSE.txt": "/portfoliopage/static/js/2.1a5ea948.chunk.js.LICENSE.txt",
     "static/media/CV.pdf": "/portfoliopage/static/media/CV.928c1357.pdf",
-    "static/media/Quiz.jpg": "/portfoliopage/static/media/Quiz.3a2815f5.jpg",
-    "static/media/background.jpg": "/portfoliopage/static/media/background.de3d5481.jpg",
+    "static/media/Page1.scss": "/portfoliopage/static/media/soft.15bf494d.otf",
+    "static/media/Quiz.jpg": "/portfoliopage/static/media/Quiz.c61b382c.jpg",
     "static/media/calc.jpg": "/portfoliopage/static/media/calc.6f0df71a.jpg",
-    "static/media/google.jpg": "/portfoliopage/static/media/google.422b5714.jpg",
+    "static/media/compound.jpg": "/portfoliopage/static/media/compound.de4f09ea.jpg",
     "static/media/mac.jpg": "/portfoliopage/static/media/mac.e21c6024.jpg",
     "static/media/me.jpg": "/portfoliopage/static/media/me.7691065e.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.03fb7ba8.js",
-    "static/js/2.d02f4982.chunk.js",
-    "static/css/main.06f2aca9.chunk.css",
-    "static/js/main.6ad60dad.chunk.js"
+    "static/js/2.1a5ea948.chunk.js",
+    "static/css/main.d38822c8.chunk.css",
+    "static/js/main.d07a2032.chunk.js"
   ]
 }
