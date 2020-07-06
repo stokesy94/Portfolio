@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/portfoliopage/static/css/main.929bec26.chunk.css",
-    "main.js": "/portfoliopage/static/js/main.a4182461.chunk.js",
-    "main.js.map": "/portfoliopage/static/js/main.a4182461.chunk.js.map",
+    "main.css": "/portfoliopage/static/css/main.f3e5345c.chunk.css",
+    "main.js": "/portfoliopage/static/js/main.65d37e5b.chunk.js",
+    "main.js.map": "/portfoliopage/static/js/main.65d37e5b.chunk.js.map",
     "runtime-main.js": "/portfoliopage/static/js/runtime-main.03fb7ba8.js",
     "runtime-main.js.map": "/portfoliopage/static/js/runtime-main.03fb7ba8.js.map",
-    "static/js/2.c4ae94bd.chunk.js": "/portfoliopage/static/js/2.c4ae94bd.chunk.js",
-    "static/js/2.c4ae94bd.chunk.js.map": "/portfoliopage/static/js/2.c4ae94bd.chunk.js.map",
+    "static/js/2.529d031b.chunk.js": "/portfoliopage/static/js/2.529d031b.chunk.js",
+    "static/js/2.529d031b.chunk.js.map": "/portfoliopage/static/js/2.529d031b.chunk.js.map",
     "index.html": "/portfoliopage/index.html",
-    "precache-manifest.bdb001c1c461ab60d9c97d693f00ee81.js": "/portfoliopage/precache-manifest.bdb001c1c461ab60d9c97d693f00ee81.js",
+    "precache-manifest.e0780bb404f26e96e52e151ea4e624ef.js": "/portfoliopage/precache-manifest.e0780bb404f26e96e52e151ea4e624ef.js",
     "service-worker.js": "/portfoliopage/service-worker.js",
-    "static/css/main.929bec26.chunk.css.map": "/portfoliopage/static/css/main.929bec26.chunk.css.map",
-    "static/js/2.c4ae94bd.chunk.js.LICENSE.txt": "/portfoliopage/static/js/2.c4ae94bd.chunk.js.LICENSE.txt",
-    "static/media/CV.pdf": "/portfoliopage/static/media/CV.928c1357.pdf",
+    "static/css/main.f3e5345c.chunk.css.map": "/portfoliopage/static/css/main.f3e5345c.chunk.css.map",
+    "static/js/2.529d031b.chunk.js.LICENSE.txt": "/portfoliopage/static/js/2.529d031b.chunk.js.LICENSE.txt",
+    "static/media/CV.docx": "/portfoliopage/static/media/CV.ea91897e.docx",
     "static/media/Page1.scss": "/portfoliopage/static/media/soft.15bf494d.otf",
-    "static/media/Quiz.jpg": "/portfoliopage/static/media/Quiz.c61b382c.jpg",
-    "static/media/calc.jpg": "/portfoliopage/static/media/calc.6f0df71a.jpg",
-    "static/media/compound.jpg": "/portfoliopage/static/media/compound.de4f09ea.jpg",
-    "static/media/mac.jpg": "/portfoliopage/static/media/mac.e21c6024.jpg",
-    "static/media/me.jpg": "/portfoliopage/static/media/me.7691065e.jpg"
+    "static/media/Quiz.jpg": "/portfoliopage/static/media/Quiz.f068aa31.jpg",
+    "static/media/calc.jpg": "/portfoliopage/static/media/calc.f5e6272d.jpg",
+    "static/media/compound.jpg": "/portfoliopage/static/media/compound.9567337f.jpg",
+    "static/media/me.jpg": "/portfoliopage/static/media/me.7691065e.jpg",
+    "static/media/pt.jpg": "/portfoliopage/static/media/pt.3f209516.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.03fb7ba8.js",
-    "static/js/2.c4ae94bd.chunk.js",
-    "static/css/main.929bec26.chunk.css",
-    "static/js/main.a4182461.chunk.js"
+    "static/js/2.529d031b.chunk.js",
+    "static/css/main.f3e5345c.chunk.css",
+    "static/js/main.65d37e5b.chunk.js"
   ]
 }
