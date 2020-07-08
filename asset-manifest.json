@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/portfoliopage/static/css/main.f3e5345c.chunk.css",
-    "main.js": "/portfoliopage/static/js/main.65d37e5b.chunk.js",
-    "main.js.map": "/portfoliopage/static/js/main.65d37e5b.chunk.js.map",
+    "main.css": "/portfoliopage/static/css/main.cd32d7af.chunk.css",
+    "main.js": "/portfoliopage/static/js/main.ddc31084.chunk.js",
+    "main.js.map": "/portfoliopage/static/js/main.ddc31084.chunk.js.map",
     "runtime-main.js": "/portfoliopage/static/js/runtime-main.03fb7ba8.js",
     "runtime-main.js.map": "/portfoliopage/static/js/runtime-main.03fb7ba8.js.map",
-    "static/js/2.529d031b.chunk.js": "/portfoliopage/static/js/2.529d031b.chunk.js",
-    "static/js/2.529d031b.chunk.js.map": "/portfoliopage/static/js/2.529d031b.chunk.js.map",
+    "static/js/2.68a520f5.chunk.js": "/portfoliopage/static/js/2.68a520f5.chunk.js",
+    "static/js/2.68a520f5.chunk.js.map": "/portfoliopage/static/js/2.68a520f5.chunk.js.map",
     "index.html": "/portfoliopage/index.html",
-    "precache-manifest.e0780bb404f26e96e52e151ea4e624ef.js": "/portfoliopage/precache-manifest.e0780bb404f26e96e52e151ea4e624ef.js",
+    "precache-manifest.5da8031623dd0995f7b866c8bf4eb13e.js": "/portfoliopage/precache-manifest.5da8031623dd0995f7b866c8bf4eb13e.js",
     "service-worker.js": "/portfoliopage/service-worker.js",
-    "static/css/main.f3e5345c.chunk.css.map": "/portfoliopage/static/css/main.f3e5345c.chunk.css.map",
-    "static/js/2.529d031b.chunk.js.LICENSE.txt": "/portfoliopage/static/js/2.529d031b.chunk.js.LICENSE.txt",
-    "static/media/CV.docx": "/portfoliopage/static/media/CV.ea91897e.docx",
+    "static/css/main.cd32d7af.chunk.css.map": "/portfoliopage/static/css/main.cd32d7af.chunk.css.map",
+    "static/js/2.68a520f5.chunk.js.LICENSE.txt": "/portfoliopage/static/js/2.68a520f5.chunk.js.LICENSE.txt",
+    "static/media/CV.pdf": "/portfoliopage/static/media/CV.0b488109.pdf",
     "static/media/Page1.scss": "/portfoliopage/static/media/soft.15bf494d.otf",
     "static/media/Quiz.jpg": "/portfoliopage/static/media/Quiz.f068aa31.jpg",
     "static/media/calc.jpg": "/portfoliopage/static/media/calc.f5e6272d.jpg",
@@ -22,8 +22,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.03fb7ba8.js",
-    "static/js/2.529d031b.chunk.js",
-    "static/css/main.f3e5345c.chunk.css",
-    "static/js/main.65d37e5b.chunk.js"
+    "static/js/2.68a520f5.chunk.js",
+    "static/css/main.cd32d7af.chunk.css",
+    "static/js/main.ddc31084.chunk.js"
   ]
 }
