@@ -1,29 +1,30 @@
 {
   "files": {
     "main.css": "/portfoliopage/static/css/main.c5a0eaee.chunk.css",
-    "main.js": "/portfoliopage/static/js/main.bcf0f254.chunk.js",
-    "main.js.map": "/portfoliopage/static/js/main.bcf0f254.chunk.js.map",
+    "main.js": "/portfoliopage/static/js/main.bf2db2c9.chunk.js",
+    "main.js.map": "/portfoliopage/static/js/main.bf2db2c9.chunk.js.map",
     "runtime-main.js": "/portfoliopage/static/js/runtime-main.03fb7ba8.js",
     "runtime-main.js.map": "/portfoliopage/static/js/runtime-main.03fb7ba8.js.map",
-    "static/js/2.343a8414.chunk.js": "/portfoliopage/static/js/2.343a8414.chunk.js",
-    "static/js/2.343a8414.chunk.js.map": "/portfoliopage/static/js/2.343a8414.chunk.js.map",
+    "static/js/2.4108561c.chunk.js": "/portfoliopage/static/js/2.4108561c.chunk.js",
+    "static/js/2.4108561c.chunk.js.map": "/portfoliopage/static/js/2.4108561c.chunk.js.map",
     "index.html": "/portfoliopage/index.html",
-    "precache-manifest.8ec88cb88fdd519c9d13a534cedc54ad.js": "/portfoliopage/precache-manifest.8ec88cb88fdd519c9d13a534cedc54ad.js",
+    "precache-manifest.5b06b491da82759ad0099074ac0c4f2b.js": "/portfoliopage/precache-manifest.5b06b491da82759ad0099074ac0c4f2b.js",
     "service-worker.js": "/portfoliopage/service-worker.js",
     "static/css/main.c5a0eaee.chunk.css.map": "/portfoliopage/static/css/main.c5a0eaee.chunk.css.map",
-    "static/js/2.343a8414.chunk.js.LICENSE.txt": "/portfoliopage/static/js/2.343a8414.chunk.js.LICENSE.txt",
+    "static/js/2.4108561c.chunk.js.LICENSE.txt": "/portfoliopage/static/js/2.4108561c.chunk.js.LICENSE.txt",
     "static/media/CV.pdf": "/portfoliopage/static/media/CV.0b488109.pdf",
     "static/media/Page1.scss": "/portfoliopage/static/media/soft.15bf494d.otf",
     "static/media/Quiz.jpg": "/portfoliopage/static/media/Quiz.f068aa31.jpg",
     "static/media/calc.jpg": "/portfoliopage/static/media/calc.f5e6272d.jpg",
     "static/media/compound.jpg": "/portfoliopage/static/media/compound.9567337f.jpg",
     "static/media/me.jpg": "/portfoliopage/static/media/me.7691065e.jpg",
-    "static/media/pt.jpg": "/portfoliopage/static/media/pt.3f209516.jpg"
+    "static/media/pt.jpg": "/portfoliopage/static/media/pt.3f209516.jpg",
+    "static/media/starida.jpg": "/portfoliopage/static/media/starida.c5102532.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.03fb7ba8.js",
-    "static/js/2.343a8414.chunk.js",
+    "static/js/2.4108561c.chunk.js",
     "static/css/main.c5a0eaee.chunk.css",
-    "static/js/main.bcf0f254.chunk.js"
+    "static/js/main.bf2db2c9.chunk.js"
   ]
 }
